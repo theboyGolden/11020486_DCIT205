@@ -1,0 +1,213 @@
+/* styles.css */
+.head_bar {
+    background-color: #9b9b9b;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    max-height: 50px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.head_bar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.head_bar li {
+    margin-bottom: 10px;
+    display: inline;
+}
+
+.head_bar a {
+    text-decoration: none;
+    color: #2a2a2a;
+}
+
+.head_bar a:hover {
+    color: burlywood;
+}
+
+/* Additional styles for specific pages */
+.home_page,
+.about_page,
+.undergraduate_page,
+.postgraduate_page {
+    margin-right: 42px;
+    font-size: 17px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600px;
+    font-style: bold;
+}
+
+.comsciencelogo {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Modified styles for .imagediv and .navigationbar_alignright */
+.imagediv{
+    display: flex;
+    justify-content: flex-end;
+    text-align: left;
+    margin-right: 5px;
+    flex: 1; /* Distribute equal space within .head_bar */
+}
+.navigationbar_alignright {
+    display: flex;
+    align-items: center;
+    text-align: right;
+    flex: 1; /* Distribute equal space within .head_bar */
+    margin-left: auto; /* Push contents to the far right */
+    padding-left: 350px;
+    margin-left: 30px;
+}
+
+
+.container {
+    display: grid;
+    grid-template-columns: 220px 220px 220px 220px; /* Two columns with a ratio of 2:1 */
+    grid-template-rows: 70px 200px; /* Two rows with a ratio of 1:2 */
+    gap: 30px; /* Gap between columns */
+    max-width: 800px; /* Set a maximum width for the container */
+    margin: 50px auto; /* Center the container and add some margin */
+    align-self: center;
+    margin-left: 250px;
+    margin-top: -30px;
+    position: relative;
+    z-index: 2;
+}
+
+.Bootstrapcamp {
+    padding-bottom: 30px;
+    padding-top: 20px;
+    padding-left: 35px;
+    background-color: #949393;
+}
+
+.Undergradute {
+    padding-bottom: 30px;
+    padding-top: 20px;
+    padding-left: 35px;
+    background-color: #949393;
+}
+
+.MPhil_MSc {
+    padding-bottom: 30px;
+    padding-top: 20px;
+    padding-left: 35px;
+    background-color: #949393;
+}
+
+.PHD {
+    padding-bottom: 40px;
+    padding-top: 30px;
+    padding-left: 35px;
+    background-color: #949393;
+    
+}
+
+.Bootstrap_row,
+.Undergraduate_row,
+.MPhil_Msc_row,
+.PHD_row {
+    background-color: #424242;
+    padding-top: -30px;
+    align-content: center;
+}
+
+row_heading a{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+    color:#fff;
+    padding-top: -10px;
+    text-decoration: none;
+    color: #fff;
+
+} 
+
+row heading a:hover {
+color: burlywood;
+}
+
+p {
+    font-size: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-left: -10px;
+    margin-left: -15px;
+    margin-right: 10px;
+}
+
+.phd_text {
+    margin-top: 28px;
+}
+
+@media (max-width: 750px) {
+    .element {
+        width: 350px;
+    }
+}
+
+@media (min-width: 750.02px) and (max-width:1000px) {
+    .element {
+        width: 450px;
+    }
+}
+
+@media (min-width:100.02px) {
+    .element {
+        width: 600px;
+    }
+}
+video {
+    align-self: center;
+    margin-left: 100px;
+}
+
+.overlay.overlay-bg {
+    position: relative;
+    height: 67vh; /* Adjust the height as needed */
+    width: 100%;
+}
+
+.video-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 85%;
+    height: 100%;
+}
+
+#myVideo {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.Overview {
+    width:1000px;
+    align-content:justify;
+}
+
+.main_overview {
+    width: 70%; /* Adjust the width as needed */
+    margin: 0 auto; /* This will center the div horizontally */
+    margin-top: -100px;
+    background-color: #f8f6f6;
+
+}
+
+h1 {
+    text-align: center;
+    margin-left: -65px;
+    color: #D4AF35;
+    font-family:"Cinzel", Sans-serif;
+}
+
+.overview_text {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-align: justify; /* Justify the text */
+    line-height: 2.0; /* Set the line spacing */
+    color:#424242;
+    margin-left: 15px;
+}
