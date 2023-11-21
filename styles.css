@@ -199,6 +199,7 @@ video {
     margin: 0 auto; /* This will center the div horizontally */
     margin-top: -100px;
     background-color: #f8f6f6;
+    margin-bottom: 50px;
 
 }
 
@@ -219,16 +220,22 @@ h1 {
 
 /* Footer Styles */
 footer {
-    background-color: #333;
+    background-color: #414040;
     color: #fff;
-    padding: 20px;
     text-align: center;
 }
 
+footer p {
+    color:#D4AF35;
+}
+
+
 footer a {
-    color: #fff;
+    color: rgba(183, 183, 3, 0.755);
     text-decoration: none;
-    margin: 0 10px;
+    margin: 0 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
 }
 
 footer a:hover {
@@ -239,15 +246,38 @@ button {
     border-radius: 70px;
 }
 
+nav {
+    background-color: #414040;
+    padding: 10px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav a:hover {
+    background-color: #555;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 .insta_icon {
     border-radius: 10px;
-    margin-right: 10px;
+    margin-right: 20px;
     margin-top:10px;
 }
 
 .twitter_icon {
     border-radius: 10px;
-    margin-right: 10px;
+    margin-right: 20px;
     margin-top:10px;
 }
 
@@ -260,3 +290,4 @@ button {
 .newsletter_div{
     padding-top: 70px;
 }
+
