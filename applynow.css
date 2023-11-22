@@ -7,20 +7,6 @@ body {
     overflow-x: hidden;
 }
 
-.head_bar {
-    background-color: #9b9b9b;
-    color: #fff;
-    padding: 100px;
-    display: flex;
-    max-height: 50px;
-    justify-content: space-between;
-    align-items: center;
-    position: fixed;
-    z-index: 999;
-    margin-top: -100px;
-    width: 100%;
-}
-
 
 .applynow_container {
     max-width: 800px;

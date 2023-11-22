@@ -7,6 +7,7 @@ h1, h2, h3 {
 
 .content-container {
     padding: 80px;
+    
 }
 
 .content-container .lecturer-profile {
@@ -32,4 +33,14 @@ h1, h2, h3 {
     color: #D4AF35;
     margin-top: 20px;
     margin-left: -15px;
+}
+
+.about_background{
+    min-height: 10vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url('images/leg_students.jpg');
+    background-position: center;
+    background-size:cover;
+    position: relative;
+    padding-top: 400px;
 }
