@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css"> 
+    <link rel="icon" href="images/favicon (1).ico" type="image/x-icon">
+    <link rel="stylesheet" href="somefooterstyles.css" type="text/css">
+    <title>UG Computer Science Events</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #2c3e50;
+            color: #fff;
+            text-align: center;
+            padding: 50px;
+        }
+
+        header h1, header p {
+            animation: fadeIn 1.5s ease-out;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+
+        section {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            margin-top: 20px;
+        }
+
+        .event-box {
+            width: 300px;
+            margin: 20px;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            transition: transform 0.3s ease-out;
+        }
+
+        .event-box:hover {
+            transform: scale(1.05);
+        }
+
+        h2 {
+            color: #2c3e50;
+            border-bottom: 2px solid #2c3e50;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+
+        p {
+            margin-bottom: 20px;
+        }
+
+        footer {
+            background-color: #34495e;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        footer p {
+            margin: 0;
+        }
+
+        footer a {
+            color: #3498db;
+            text-decoration: none;
+            transition: color 0.3s ease-out;
+        }
+
+        footer a:hover {
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+<div class="head_bar">
+    <div class="imagediv">
+        <img class="comsciencelogo" src="images/comScience_logo.png">
+    </div>
+    <div class="navigationbar_alignright">
+        <ul>
+            <li class="home_page"><a href="MAIN.html">HOME</a></li>
+            <li class="about_page"><a href="About.html">ABOUT</a></li>
+            <li class="resources_page"><a href="Resources.html">RESOURCES</a></li>
+            <li class="events_page"><a href="Events.html">EVENTS</a></li>
+            <li class="applynow_page"><a href="APPLY_NOW.html">APPLY NOW</a></li>
+            <li class="catalog_page"><a href="catalog.html">CATALOG</a></li>
+            <li class="contact_page"><a href="contact.html">CONTACT</a></li>
+        </ul>
+    </div>
+</div>
+<header>
+    <h1>University of Ghana Computer Science Events</h1>
+    <p>Stay updated on upcoming events and activities</p>
+</header>
+
+<section>
+    <div class="event-box">
+        <h2>Tech Symposium 2023</h2>
+        <p>Join us for an exciting symposium showcasing the latest in technology and innovation.</p>
+        <img src="event_image_1.jpg" alt="Tech Symposium">
+    </div>
+
+    <div class="event-box">
+        <h2>Hackathon Challenge</h2>
+        <p>Compete in our annual Hackathon Challenge and showcase your coding skills.</p>
+        <img src="event_image_2.jpg" alt="Hackathon Challenge">
+    </div>
+
+    <div class="event-box">
+        <h2>Guest Lecture Series</h2>
+        <p>Attend insightful lectures by industry experts on cutting-edge topics in computer science.</p>
+        <img src="event_image_3.jpg" alt="Guest Lecture Series">
+    </div>
+
+    <div class="event-box">
+        <h2>Networking Mixer</h2>
+        <p>Connect with fellow students, alumni, and professionals in the field at our Networking Mixer.</p>
+        <img src="event_image_4.jpg" alt="Networking Mixer">
+    </div>
+</section>
+
+<footer>
+    <p>&copy; 2023 University of Ghana Department of Computer Science -- <a href="#">DCS</a></p>
+</footer>
+
+</body>
+</html>
