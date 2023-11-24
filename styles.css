@@ -256,6 +256,8 @@ body {
     background-size: cover;
     position: relative;
     height: 170vh;
+    margin-top: -70px;
+    margin-bottom: 50px;
 }
 .Overview {
     width:1000px;
@@ -377,3 +379,6 @@ h1 {
     text-align: center;
     margin-top: 20px;
 }
+
+
+
