@@ -4,33 +4,7 @@
     <title>Computer Science Department-UG</title>
     <link rel="stylesheet" type="text/css" href="styles.css"> 
     <link rel="icon" href="images/favicon (1).ico" type="image/x-icon">
-    <link rel="stylesheet" href="somefooterstyles.css" type="text/css">
-
-
-    <script>
-        function subscribeNewsletter(event) {
-            event.preventDefault();
-    
-            // Get the email input value
-            var emailInput = document.getElementById("emailInput");
-            var email = emailInput.value;
-    
-            // Simple email validation
-            if (!isValidEmail(email)) {
-                alert("Please enter a valid email address.");
-                return;
-            }
-    
-            // Display a thank you message
-            alert("Thanks for Subscribing!");
-        }
-    
-        function isValidEmail(email) {
-            // Basic email validation using a regular expression
-            var emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-            return emailRegex.test(email);
-        }
-    </script>
+    <script src="newletter.js"></script>
     
 </head>
 <body>
@@ -41,8 +15,8 @@
         <div class="navigationbar_alignright">
             <ul>
                 <li class="home_page"><a href="MAIN.html">HOME</a></li>
-                <li class="about_page"><a href="About.html">ABOUT</a></li>
-                <li class="resources_page"><a href="Resources.html">RESOURCES</a></li>
+                <li class="about_page"><a href="aboutcsdep.html">ABOUT</a></li>
+                <li class="resources_page"><a href="finalresources.html">RESOURCES</a></li>
                 <li class="events_page"><a href="Events.html">EVENTS</a></li>
                 <li class="applynow_page"><a href="APPLY_NOW.html">APPLY NOW</a></li>
                 <li class="catalog_page"><a href="catalog.html">CATALOG</a></li>

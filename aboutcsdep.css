@@ -1,0 +1,108 @@
+.bodybody {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    overflow: hidden;
+}
+
+.piccontainer {
+    display: flex;
+    height: 500px; /* Adjust the height as needed */
+    width: 200%;
+    animation: slideImages 30s linear infinite;
+}
+
+.image1 {
+    flex: 1;
+    background-size: cover;
+    text-align: center;
+    margin-right: 20;
+    line-height: 500px; /* Center content vertically */
+    color: white;
+    font-size: 24px;
+}
+
+.image2 {
+    flex: 1;
+    background-size: cover;
+    text-align: center;
+    line-height: 500px; /* Center content vertically */
+    color: white;
+    font-size: 24px;
+}
+
+.image1 {
+    background: url('images/about_pic.jpg') center/cover no-repeat;
+}
+
+.image2 {
+    background: url('images/about_pic2.jpg') center/cover no-repeat;
+}
+
+@keyframes slideImages {
+    0% {
+        transform: translateX(0%);
+    }
+    25% {
+        transform: translateX(0%);
+    }
+    50% {
+        transform: translateX(-50%);
+    }
+    100% {
+        transform: translateX(0%);
+    }
+}
+
+
+
+
+h1, h2, h3 {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.content-container {
+    padding: 80px;
+    background: linear-gradient(to right, #808080, #a9a9a9, #d3d3d3);
+}
+
+.content-container .lecturer-profile {
+    text-align: center;
+    margin-bottom: 30px; 
+}
+
+.lecturer-profile img {
+    width: 20%; 
+    border-radius: 50%; 
+    margin-bottom: 10px; 
+}
+
+.content-container .about-section h1,
+.content-container .about-section h2,
+.content-container .about-section h3,
+.content-container .about-section p {
+    margin-bottom: 15px; 
+}
+
+.OurMission,
+.OurLecturers {
+    color: #D4AF35;
+    margin-top: 20px;
+    margin-left: -15px;
+}
+
+.about_background{
+    min-height: 10vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url('images/leg_students.jpg');
+    background-position: center;
+    background-size:cover;
+    position: relative;
+    padding-top: 400px;
+}
+
+.othercontents{
+    margin-left: 40px;
+}

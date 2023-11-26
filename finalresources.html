@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resources Page</title>
+    <link rel="stylesheet" type="text/css" href="styles.css"> 
+    <link rel="stylesheet" type="text/css" href="finalresources.css"> 
+    <link rel="icon" href="images/favicon (1).ico" type="image/x-icon">
+    <script src="newletter.js"></script>
+</head>
+<body>
+    <div class="head_bar">
+        <div class="imagediv">
+            <img class="comsciencelogo" src="images/comScience_logo.png">
+        </div>
+        <div class="navigationbar_alignright">
+            <ul>
+                <li class="home_page"><a href="MAIN.html">HOME</a></li>
+                <li class="about_page"><a href="aboutcsdep.html">ABOUT</a></li>
+                <li class="resources_page"><a href="finalresources.html">RESOURCES</a></li>
+                <li class="events_page"><a href="Events.html">EVENTS</a></li>
+                <li class="applynow_page"><a href="APPLY_NOW.html">APPLY NOW</a></li>
+                <li class="catalog_page"><a href="catalog.html">CATALOG</a></li>
+                <li class="contact_page"><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </div>
+    </div>
+<br>
+<br>
+<br>
+<br>
+
+<header>
+    <h1 id="resources-text">Resources</h1>
+    <!-- Your other content goes here -->
+</header>
+
+
+<table>
+    <thead>
+        <tr>
+            <th>Resource</th>
+            <th>Status</th>
+            <th>Link</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Introduction to Algorithms</td>
+            <td>Available online and in stock</td>
+            <td><a href="documents/Introduction_to_algorithms-3rd Edition.pdf" target="_blank"><img class="link-image" src="images/intro to algorithms.jpeg" alt="Link to Document"></a></td>
+        </tr>
+        <tr>
+            <td>Machine Learning Essentials</td>
+            <td>Available Online</td>
+            <td><a href="documents/_OceanofPDF.com_Machine_Learning_Essentials__Practical_Gui_-_Alboukadel_Kassambara.pdf" target="_blank"><img class="link-image" src="images/Machine Learning Essentials.jpeg" alt="Link to Document"></a></td>
+        </tr>
+        <tr>
+            <td>Cybersecurity Best Practices</td>
+            <td>Available Online</td>
+            <td><a href="documents/Cyber Essentials Starter Kit_03.12.2021_508_0.pdf" target="_blank"><img class="link-image" src="images/Cyber-Security-Best-Practices-768x480.jpg" alt="Link to Document"></a></td>
+        </tr>
+        <tr>
+            <td>Data Science Fundamentals</td>
+            <td>Available Online and in stock</td>
+            <td><a href="documents/book.pdf" target="_blank"><img class="link-image" src="images/Data Science Fundamentals.jpeg" alt="Link to Document"></a></td>
+        </tr>
+    </tbody>
+</table>
+
+<section class="custom-section">
+    <p class="custom-paragraph">Explore our wide range of resources to deepen your understanding of computer science and stay updated on the latest advancements. From programming guides to web development tools, our curated collection is designed to enhance your learning journey. Dive into a wealth of knowledge and empower yourself in the dynamic world of technology.</p>
+</section>
+<br>
+<br>
+
+<footer class="world-class-footer">
+    
+    <div class="footer-links">
+        <div class="footer_links_box"> 
+            <a href="apply_now.html">Apply Now</a>
+            <a href="more_info.html">More Info</a>
+            <a href="contact.html">Contact</a>
+        </div>
+       
+    </div>
+    
+    <div id="contact-info-sections">
+        <section class="contact-info-section">
+            <div class="contact-info">
+                <h4>Get In Touch</h4>
+                <p>Legon<br>Okponglo Rd, Accra, G/A</p>
+            </div>
+        </section>
+    
+        <section class="contact-info-section">
+            <div class="contact-info">
+                <h4>Postal Address</h4>
+                <p>P.O.BOX LG 50,<br>Legon, Accra.</p>
+            </div>
+        </section>
+    
+        <section class="contact-info-section">
+            <div class="contact-info">
+                <h4>Phone & Email</h4>
+                <p>(Telephone) +233 302 500 387<br>(Email) <a href="mailto:pad@ug.edu.gh">pad@ug.edu.gh</a></p>
+            </div>
+        </section>
+    </div>
+    
+    
+    <br>
+
+    <div class="newsletter">
+        <h4>Newsletter</h4>
+        <form id="newsletterForm" onsubmit="subscribeNewsletter(event)">
+            <input type="email" name="email" id="emailInput" placeholder="Your Email" required>
+            <button type="submit">Subscribe</button>
+        </form>
+    </div>
+
+
+<div class="copyright">
+    <p>&copy; 2023 Department of Computer Science --DCS--</p>
+</div>
+</footer>
+</body>
+</html>
