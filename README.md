@@ -30,8 +30,36 @@ Screenshot of home page
 ![screenshot](screenshot_home_page.png)
 
 
-Screenshot of Page 2
-Screenshot of Page 3
+Screenshot of about page
+![screenshot](screenshot_about_page.png)
+
+
+Screenshot of resources page
+![screenshot](screenshot_resource_page.png)
+
+
+Screenshot of events page
+![screenshot](screenshot_events_page.png)
+
+Screenshot of blog page
+![screenshot](screenshot_blog_page.png)
+
+Screenshot of library page
+![screenshot](screenshot_library_page.png)
+
+Screenshot of research page 
+![screenshot](screenshot_research_page.png)
+
+Screenshot of applynow page
+![screenshot](screenshot_applynow_page.png)
+
+Screenshot of catalog page
+![screenshot](screenshot_catalog_page.png)
+
+Screenshot of contact page
+![screenshot](screenshot_contact_page.png)
+
+
 
 ## What I've Learned
 This project has taught me various important skills, such as:
