@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/favicon (1).ico" type="image/x-icon">
+    <style>
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+
+        .fade-in {
+            animation: fadeIn 1.5s ease-out;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #2c3e50;
+            color: #fff;
+            text-align: center;
+            padding: 50px;
+        }
+
+        header h1, header p {
+            animation: fadeIn 1.5s ease-out;
+        }
+
+        section {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            margin-top: 20px;
+        }
+
+        .research-topic {
+            width: 300px;
+            margin: 20px;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 4px;
+            transition: transform 0.3s ease-out;
+            position: relative;
+        }
+
+        .research-topic img {
+            width: 100%;
+            height: auto;
+            border-radius: 4px;
+        }
+
+        .research-topic:hover {
+            transform: scale(1.05);
+        }
+
+        footer {
+            background-color: #34495e;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        footer p {
+            margin: 0;
+        }
+
+        .head_bar {
+        background-color: rgb(181, 188, 209);
+        color: #fff;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: fixed;
+        top: 0;
+        z-index: 999;
+        width: 100%;
+        }
+
+        .head_bar ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .head_bar li {
+            margin-bottom: 10px;
+            display: inline;
+        }
+
+        .head_bar a {
+            text-decoration: none;
+            color: #2a2a2a;
+        }
+
+        .head_bar a:hover {
+            color: burlywood;
+        }
+
+        /* Additional styles for specific pages */
+        .home_page,
+        .about_page,
+        .resources_page,
+        .events_page,
+        .applynow_page,
+        .catalog_page,
+        .contact_page,
+        .blog_post,
+        .library_page,
+        .research_page {
+            margin-right: 20px;
+            font-size: 15px;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-weight: 600px;
+            font-style: bold;
+        }
+
+        .comsciencelogo {
+            max-width: 100%;
+            height: auto;
+            padding-top: 10px;
+        }
+
+        /* Modified styles for .imagediv and .navigationbar_alignright */
+        .imagediv{
+            display: flex;
+            justify-content: flex-end;
+            text-align: left;
+            
+            flex: 1; /* Distribute equal space within .head_bar */
+        }
+        .navigationbar_alignright {
+            display: flex;
+            align-items: center;
+            text-align: left;
+            flex: 3; /* Distribute equal space within .head_bar */
+            margin-left: auto; /* Push contents to the far right */
+            padding-left: 350px;
+            margin-left: 30px;
+        }
+    </style>
+    <title>Research</title>
+</head>
+<body>
+    <div class="head_bar">
+        <div class="imagediv">
+            <img class="comsciencelogo" src="images/comScience_logo.png">
+        </div>
+        <div class="navigationbar_alignright">
+            <ul>
+                <li class="home_page"><a href="MAIN.html">HOME</a></li>
+                <li class="about_page"><a href="aboutcsdep.html">ABOUT</a></li>
+                <li class="resources_page"><a href="finalresources.html">RESOURCES</a></li>
+                <li class="events_page"><a href="Events.html">EVENTS</a></li>
+                <li class="blog_post"><a href="blog.html">BLOG</a></li>
+                <li class="library_page"><a href="library.html">LIBRARY</a></li>
+                <li class="research_page"><a href="research.html">RESEARCH</a></li>
+                <li class="applynow_page"><a href="APPLY_NOW.html">APPLY NOW</a></li>
+                <li class="catalog_page"><a href="catalog.html">CATALOG</a></li>
+                <li class="contact_page"><a href="contact.html">CONTACT</a></li>
+                
+            </ul>
+        </div>
+    </div>
+<header>
+    <h1>Explore Our Research Topics</h1>
+    <p>Stay informed about the latest advancements in computer science research.</p>
+</header>
+
+<section>
+    <div class="research-topic fade-in">
+        <img src="images/CS.jpeg" alt="Research Topic 1">
+        <h2>The Rise of Artificial Intelligence</h2>
+        <p>The fascinating world of artificial intelligence, exploring its applications, its impact on various industries, and the ethical considerations that come with it is the focus of the study.
+           The emergence of artificial intelligence (AI) has led to unheard-of advancements in a number of industries, revolutionizing our daily lives in terms of work, play, and communication. Tech behemoths like Google and Microsoft have made significant advancements in AI research in recent years, producing complex models like ChatGPT and Bard. But along with AI's enormous potential also come a host of moral questions and dangers. It is crucial to think about how to balance utilizing the advantages of AI technology while minimizing its risks as we continue to push its boundaries. In this blog post, we examine the history of AI development, consider its effects on various industries, and talk about the value of responsible innovation in this quickly developing field.</p>
+    </div>
+
+    <div class="research-topic fade-in">
+        <img src="images/web_dev.jpg" alt="Research Topic 2">
+        <h2>Unleashing Creativity and Problem-Solving</h2>
+        <p>Coding is not just about writing lines of code; it's a powerful tool that fosters creativity and sharpens
+            problem-solving skills. Discover the art and science of coding in this enlightening piece.
+
+            In this modern age, technology has become an integral part of our lives. From the way we communicate to the way we do business, 
+            technology is everywhere. With the rise of coding, developers now have an unprecedented level of power when it comes to creating and customizing software applications.</p>
+    </div>
+
+    <div class="research-topic fade-in">
+        <img src="images/AR-VR.jpeg" alt="Research Topic 2">
+        <h2>AR/VR</h2>
+        <p>Virtual reality is a powerful tool that fosters real life experience. It is an art and science that seeks to bring to you experience of real life simulation of objects, programs etc.</p>
+    </div>
+
+
+</section>
+
+<footer>
+    <p>&copy; 2023 University of Ghana, Legon -- Department of Computer Science -- <a href="#">DCS</a></p>
+</footer>
+
+</body>
+</html>

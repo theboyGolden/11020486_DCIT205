@@ -1,0 +1,189 @@
+ /* Add your animations here */
+ @keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.fade-in {
+    animation: fadeIn 1.5s ease-out;
+}
+
+
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    color: #fff;
+    text-align: center;
+    padding: 50px;
+}
+
+header h1, header p {
+    animation: fadeIn 1.5s ease-out;
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.fade-in {
+    animation: fadeIn 1.5s ease-out;
+}
+
+.facility, .service, .info {
+    width: 300px;
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    transition: transform 0.3s ease-out;
+    position: relative;
+}
+
+.facility img, .service img, .info img {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+}
+
+.facility:hover, .service:hover, .info:hover {
+    transform: scale(1.05);
+}
+
+footer {
+    background-color: #34495e;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+}
+
+
+
+
+
+
+
+.head_bar {
+background-color: rgb(181, 188, 209);
+color: #fff;
+display: flex;
+justify-content: space-between;
+align-items: center;
+position: fixed;
+top: 0;
+z-index: 999;
+width: 100%;
+}
+
+.head_bar ul {
+list-style: none;
+padding: 0;
+}
+
+.head_bar li {
+margin-bottom: 10px;
+display: inline;
+}
+
+.head_bar a {
+text-decoration: none;
+color: #2a2a2a;
+}
+
+.head_bar a:hover {
+color: burlywood;
+}
+
+/* Additional styles for specific pages */
+.home_page,
+.about_page,
+.resources_page,
+.events_page,
+.applynow_page,
+.catalog_page,
+.contact_page,
+.blog_post,
+.library_page,
+.research_page {
+margin-right: 20px;
+font-size: 15px;
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-weight: 600px;
+font-style: bold;
+}
+
+.comsciencelogo {
+max-width: 100%;
+height: auto;
+padding-top: 10px;
+}
+
+/* Modified styles for .imagediv and .navigationbar_alignright */
+.imagediv{
+display: flex;
+justify-content: flex-end;
+text-align: left;
+
+flex: 1; /* Distribute equal space within .head_bar */
+}
+
+.navigationbar_alignright {
+display: flex;
+align-items: center;
+text-align: left;
+flex: 3; /* Distribute equal space within .head_bar */
+margin-left: auto; /* Push contents to the far right */
+padding-left: 350px;
+margin-left: 30px;
+}        
+
+.library{
+min-height: 10vh;
+width: 100%;
+background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url('images/balme2.jpeg');
+background-position: center;
+background-size:cover;
+position: relative;
+padding-top: 400px;
+align-items:center;
+}
+
+.welcome{
+    color:white;
+    align-items: end;
+    padding-top: -50px;
+    translate: (-50%, 50%);
+}
+
+.intro{
+    color: white;
+    align-items: end;
+    translate: (-50%, 50%);
+}
+
+.heading{
+   margin-top: -200px;
+   text-align: center;
+}

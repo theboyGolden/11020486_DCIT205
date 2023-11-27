@@ -1,0 +1,222 @@
+.head_bar {
+    background-color: rgb(181, 188, 209);
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    z-index: 999;
+    width: 100%;
+}
+
+.head_bar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.head_bar li {
+    margin-bottom: 10px;
+    display: inline;
+}
+
+.head_bar a {
+    text-decoration: none;
+    color: #2a2a2a;
+}
+
+.head_bar a:hover {
+    color: burlywood;
+}
+
+/* Additional styles for specific pages */
+.home_page,
+.about_page,
+.resources_page,
+.events_page,
+.applynow_page,
+.catalog_page,
+.contact_page,
+.blog_post,
+.library_page,
+.research_page {
+    margin-right: 20px;
+    font-size: 15px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600px;
+    font-style: bold;
+}
+
+.comsciencelogo {
+    max-width: 100%;
+    height: auto;
+    padding-top: 10px;
+}
+
+/* Modified styles for .imagediv and .navigationbar_alignright */
+.imagediv{
+    display: flex;
+    justify-content: flex-end;
+    text-align: left;
+    
+    flex: 1; /* Distribute equal space within .head_bar */
+}
+.navigationbar_alignright {
+    display: flex;
+    align-items: center;
+    text-align: left;
+    flex: 3; /* Distribute equal space within .head_bar */
+    margin-left: auto; /* Push contents to the far right */
+    padding-left: 350px;
+    margin-left: 30px;
+}
+
+
+
+
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #2c3e50;
+    color: #fff;
+    text-align: center;
+    padding: 50px;
+}
+
+h1, h2 {
+    color: #AB165E; /* Your specified color */
+}
+
+.blog-post {
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    transition: transform 0.3s ease-out;
+}
+
+.blog-post:hover {
+    transform: scale(1.05);
+}
+
+.post-meta {
+    color: #555;
+}
+
+.read-more {
+    color: #3498db;
+    text-decoration: none;
+    transition: color 0.3s ease-out;
+}
+
+.read-more:hover {
+    color: #AB165E; /* Your specified color */
+}
+
+footer {
+    background-color: #34495e;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+
+
+
+
+.world-class-footer {
+    background-color: #1a1a1a;
+    color: #fff;
+    padding: 40px 20px;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url('images/footer_background.jpeg');
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    height: 40vh;
+}
+
+.footer-links {
+    margin-bottom: 20px;
+    text-align: center; /* Center the links */
+    margin-left: 80px;
+}
+
+.footer-links a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+#contact-info-sections {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: -40px; /* Adjust the gap according to your preference */
+    text-align: center;
+    width: 1000px;
+    margin-left: 270px;
+}
+
+.contact-info {
+    background-color: transparent;
+    color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.contact-info h4 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.contact-info p {
+    font-size: 14px;
+    margin: 0;
+}
+
+.contact-info a {
+    color: #0066cc;
+}
+
+
+.newsletter {
+    margin-bottom: 20px;
+    margin-left: 957px;
+}
+
+.newsletter h4 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.newsletter form {
+    display: flex;
+}
+
+.newsletter input {
+    width: 200px;
+    padding: 8px;
+    margin-right: 10px;
+}
+
+.newsletter button {
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+}
+
+.copyright {
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+}

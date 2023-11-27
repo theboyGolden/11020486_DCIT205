@@ -37,9 +37,12 @@
 .events_page,
 .applynow_page,
 .catalog_page,
-.contact_page {
+.contact_page,
+.blog_post,
+.library_page,
+.research_page {
     margin-right: 20px;
-    font-size: 17px;
+    font-size: 15px;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: 600px;
     font-style: bold;
@@ -63,7 +66,7 @@
     display: flex;
     align-items: center;
     text-align: left;
-    flex: 2; /* Distribute equal space within .head_bar */
+    flex: 3; /* Distribute equal space within .head_bar */
     margin-left: auto; /* Push contents to the far right */
     padding-left: 350px;
     margin-left: 30px;
