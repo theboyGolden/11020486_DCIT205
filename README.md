@@ -26,7 +26,10 @@ Student ID: Your Student ID
 ## Screenshots
 Please find below the screenshots of each page of the website:
 
-Screenshot of Page 1
+Screenshot of home page
+![how the home page looks like](screenshot_home_page.jpg)
+
+
 Screenshot of Page 2
 Screenshot of Page 3
 
