@@ -20,8 +20,8 @@ Open your terminal or command prompt and run the following command:
 
 
 ## Creator
-Name: Your Name
-Student ID: Your Student ID
+Name: Precious Amenuveve Tsewoo
+Student ID: 11020486
 
 ## Screenshots
 Please find below the screenshots of each page of the website:
@@ -30,34 +30,71 @@ Screenshot of home page
 ![screenshot](screenshot_home_page.png)
 
 
+
+
+
 Screenshot of about page
 ![screenshot](screenshot_about_page.png)
+
+
+
+
 
 
 Screenshot of resources page
 ![screenshot](screenshot_resource_page.png)
 
 
+
+
+
+
 Screenshot of events page
 ![screenshot](screenshot_events_page.png)
+
+
+
+
 
 Screenshot of blog page
 ![screenshot](screenshot_blog_page.png)
 
+
+
+
+
 Screenshot of library page
 ![screenshot](screenshot_library_page.png)
+
+
+
+
 
 Screenshot of research page 
 ![screenshot](screenshot_research_page.png)
 
+
+
+
+
 Screenshot of applynow page
 ![screenshot](screenshot_applynow_page.png)
+
+
+
+
 
 Screenshot of catalog page
 ![screenshot](screenshot_catalog_page.png)
 
+
+
+
+
 Screenshot of contact page
 ![screenshot](screenshot_contact_page.png)
+
+
 
 
 
